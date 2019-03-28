@@ -1,5 +1,7 @@
 <?php
 
+    echo "hallo";
+
 ?>
 
 <!doctype html>
