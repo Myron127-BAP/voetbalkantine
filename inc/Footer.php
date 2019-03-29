@@ -12,19 +12,19 @@
 
             <div class="col-md-2 mb-3">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="/Geschiedenis.php">Geschiedenis</a>
+                    <a href="./Geschiedenis.php">Geschiedenis</a>
                 </h6>
             </div>
 
             <div class="col-md-2 mb-3">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="/Fotos.php">Foto's</a>
+                    <a href="./Fotos.php">Foto's</a>
                 </h6>
             </div>
 
             <div class="col-md-2 mb-3">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="/Contact.php">Contact</a>
+                    <a href="./Contact.php">Contact</a>
                 </h6>
             </div>
 
