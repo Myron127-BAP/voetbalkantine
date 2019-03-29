@@ -1,0 +1,26 @@
+body, html
+{
+    background-color: darkslategray;
+    font-family: Verdana, sans-serif;
+}
+
+#HomeText
+{
+    font-weight: bold;
+    font-size: 22px;
+}
+#HomeText:hover
+{
+    color: red;
+
+}
+
+#FooterColor
+{
+    background-color: #f8f9fa;
+}
+
+.FooterLine
+{
+    background-color: #343a40;
+}
