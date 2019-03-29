@@ -8,23 +8,23 @@
 
     <div class="container">
 
-        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+        <div class="row text-center d-flex justify-content-center pt-4 mb-3">
 
             <div class="col-md-2 mb-3">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!">Geschiedenis</a>
+                    <a href="/Geschiedenis.php">Geschiedenis</a>
                 </h6>
             </div>
 
             <div class="col-md-2 mb-3">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!">Foto's</a>
+                    <a href="/Fotos.php">Foto's</a>
                 </h6>
             </div>
 
             <div class="col-md-2 mb-3">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!">Contact</a>
+                    <a href="/Contact.php">Contact</a>
                 </h6>
             </div>
 
