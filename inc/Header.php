@@ -11,21 +11,21 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="Geschiedenis.php">Geschiedenis</a>
+                    <a class="nav-link" href="./Geschiedenis.php">Geschiedenis</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Fotos.php">Foto's</a>
+                    <a class="nav-link" href="./Fotos.php">Foto's</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Contact.php">Contact</a>
+                    <a class="nav-link" href="./Contact.php">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href=".">Inloggen</a>
+                    <a class="nav-link" href="./Inloggen.php">Inloggen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Registreren</a>
+                    <a class="nav-link" href="./Registreren.php">Registreren</a>
                 </li>
             </ul>
         </div>

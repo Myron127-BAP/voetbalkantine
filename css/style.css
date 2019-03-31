@@ -24,3 +24,9 @@ body, html
 {
     background-color: #343a40;
 }
+
+.FormText
+{
+    font-weight: bold;
+    font-size: 37px;
+}
