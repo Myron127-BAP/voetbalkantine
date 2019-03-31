@@ -5,32 +5,19 @@
 
 
 <footer class="page-footer font-small fixed-bottom" id="FooterColor">
-
     <div class="container">
-
-        <div class="row text-center d-flex justify-content-center pt-4 mb-3">
-
+        <div class="row text-center d-flex justify-content-center pt-4 mb-3 FooterText">
             <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-                    <a href="./Geschiedenis.php">Geschiedenis</a>
-                </h6>
+                <a href="./Geschiedenis.php">Geschiedenis</a>
             </div>
-
             <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-                    <a href="./Fotos.php">Foto's</a>
-                </h6>
+                <a href="./Fotos.php">Foto's</a>
             </div>
-
             <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-                    <a href="./Contact.php">Contact</a>
-                </h6>
+                <a href="./Contact.php">Contact</a>
             </div>
-
         </div>
         <hr class="FooterLine " style="margin: 0 20%;">
-
         <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
             <div class="col-md-8 pt-3 text-dark">
                 <p>Vind hier alle informatie over de Leeuwenborghse Voetbal Vereniging!</p>
@@ -39,7 +26,7 @@
     </div>
 
     <div class="footer-copyright text-center py-3 bg-dark text-white">
-        © 2018 Copyright
+        © 2019 Copyright
     </div>
 
 

@@ -7,12 +7,55 @@ body, html
 #HomeText
 {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
+    color: #0d1c46;
 }
 #HomeText:hover
 {
-    color: red;
+    color: #ee7d11;
+    font-size: 33px;
+}
 
+#NavBarText
+{
+    font-weight: 600;
+    font-size: 22px;
+    color: #0d1c46;
+}
+
+#NavBarTextGeschiedenis:hover
+{
+    font-weight: bold;
+    color: #ee7d11;
+    font-size: 25px;
+}
+
+#NavBarTextFotos:hover
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ee7d11;
+}
+
+#NavBarTextContact:hover
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ee7d11;
+}
+
+#NavBarTextRegisteren:hover
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ee7d11;
+}
+
+#NavBarTextInloggen:hover
+{
+    font-weight: bold;
+    font-size: 27px;
+    color: #ee7d11;
 }
 
 #FooterColor
@@ -29,4 +72,20 @@ body, html
 {
     font-weight: bold;
     font-size: 37px;
+}
+
+.FooterText a
+{
+    font-weight: bold;
+    text-transform:  uppercase;
+    color: #007bff;
+}
+
+.FooterText a:hover
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ee7d11;
+    font-size: 17px;
 }

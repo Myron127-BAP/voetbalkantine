@@ -16,7 +16,7 @@ include_once './inc/Registeren.inc.php';
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Inloggen</title>
+    <title>Registreren</title>
 
 </head>
 
@@ -30,20 +30,20 @@ include_once './inc/Registeren.inc.php';
 <main style="background-color: darkslategray">
     <br>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 bg-light">
+    <form class="text-center p-5 col-md-4 offset-md-4 bg-light rounded">
         <p class="FormText mb-4">Registeren</p>
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <input type="text" id="Username" class="form-control" placeholder="Gebruikersnaam">
+                <input type="text" id="Username" class="form-control" placeholder="Gebruikersnaam" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="email" id="Email" class="form-control mb-4" placeholder="Email">
+                <input type="email" id="Email" class="form-control mb-4" placeholder="Email" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" id="Password" class="form-control" placeholder="Wachtwoord" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                <input type="password" id="Password" class="form-control" placeholder="Wachtwoord" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" id="Password" class="form-control" placeholder="Wachtwoord Herhalen" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                <input type="password" id="Password" class="form-control" placeholder="Wachtwoord Herhalen" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
             </div>
         </div>
 

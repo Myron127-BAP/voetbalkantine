@@ -9,23 +9,23 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto" id="NavBarText">
                 <li class="nav-item">
-                    <a class="nav-link" href="./Geschiedenis.php">Geschiedenis</a>
+                    <a class="nav-link" id="NavBarTextGeschiedenis" href="./Geschiedenis.php">Geschiedenis</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Fotos.php">Foto's</a>
+                    <a class="nav-link" id="NavBarTextFotos" href="./Fotos.php">Foto's</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Contact.php">Contact</a>
+                    <a class="nav-link" id="NavBarTextContact" href="./Contact.php">Contact</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" id="NavBarText">
                 <li class="nav-item">
-                    <a class="nav-link" href="./Inloggen.php">Inloggen</a>
+                    <a class="nav-link" id="NavBarTextRegisteren" href="./Inloggen.php">Inloggen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Registreren.php">Registreren</a>
+                    <a class="nav-link" id="NavBarTextInloggen" href="./Registreren.php">Registreren</a>
                 </li>
             </ul>
         </div>
