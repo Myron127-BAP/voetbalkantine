@@ -1,5 +1,7 @@
 <?php
 
+    include_once './inc/Account.inc.php';
+
 ?>
 
 <!doctype html>
@@ -14,7 +16,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Foto's</title>
+    <title>Account</title>
 
 </head>
 
@@ -22,6 +24,11 @@
 <header>
     <?php
     include_once'./inc/Header.php';
+        if ($_SESSION['User'] === null)
+        {
+            header('Location: http://localhost/voetbalkantine/Inloggen.php');
+            exit();
+        }
     ?>
 </header>
 

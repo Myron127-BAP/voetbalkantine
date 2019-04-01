@@ -27,6 +27,9 @@
                 <li class="nav-item">
                     <a class="nav-link" id="NavBarTextInloggen" href="./Registreren.php">Registreren</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="NavBarTextInloggen" href="./Uitloggen.php">Uitloggen</a>
+                </li>
             </ul>
         </div>
     </nav>

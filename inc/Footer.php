@@ -4,7 +4,7 @@
 <link rel="stylesheet" as="style" type="text/css" href="/css/style.css">
 
 
-<footer class="page-footer font-small fixed-bottom" id="FooterColor">
+<footer class="page-footer font-small fixed-bottom position-fixed" id="FooterColor" style="width: 100%">
     <div class="container">
         <div class="row text-center d-flex justify-content-center pt-4 mb-3 FooterText">
             <div class="col-md-2 mb-3">

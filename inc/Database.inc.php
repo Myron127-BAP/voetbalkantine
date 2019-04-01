@@ -12,5 +12,4 @@ if(!$conn)
     die("Er is iets fout gegaan: " .mysqli_connect_error());
 }
 
-
 ?>

@@ -30,31 +30,25 @@ include_once './inc/Registeren.inc.php';
 <main style="background-color: darkslategray">
     <br>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 bg-light rounded">
+    <form class="text-center p-5 col-md-4 offset-md-4 bg-light rounded position-relative" action="#" method="post" enctype="multipart/form-data">
         <p class="FormText mb-4">Registeren</p>
+        <div class="alert-success"><?= $_SESSION['message'] ?></div>
+        <br>
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <input type="text" id="Username" class="form-control" placeholder="Gebruikersnaam" required>
+                <input type="text" name="Username_Register" class="form-control" placeholder="Gebruikersnaam" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="email" id="Email" class="form-control mb-4" placeholder="Email" required>
+                <input type="email" name="Email_Register" class="form-control mb-4" placeholder="Email" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" id="Password" class="form-control" placeholder="Wachtwoord" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
+                <input type="password" name="Password_Register" class="form-control" placeholder="Wachtwoord" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" id="Password" class="form-control" placeholder="Wachtwoord Herhalen" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
+                <input type="password" name="Password_Register2" class="form-control" placeholder="Wachtwoord Herhalen" required>
             </div>
         </div>
-
-        <!--
-        <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
-        <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
-            Optional - for two step authentication
-        </small>
-        -->
-
-        <button class="btn btn-info my-4 btn-block col-md-8 offset-md-2" type="submit">Registreren</button>
+        <button class="btn btn-info my-4 btn-block col-md-8 offset-md-2" type="submit" name="Submit_Registeren">Registreren</button>
     </form>
 
 </main>

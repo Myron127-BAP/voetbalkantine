@@ -33,7 +33,7 @@
 
 </head>
 
-<body background="Voetbalkantine.png">
+<body>
 <header>
     <?php
         include_once'./inc/Header.php';
