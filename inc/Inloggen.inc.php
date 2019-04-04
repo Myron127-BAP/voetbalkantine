@@ -20,7 +20,7 @@
             header("Location: http://localhost/voetbalkantine/Account.php");
             exit();
         }
-        else echo "Wachtwoord klopt niet";
+        else echo "Het ingevoerde wachtwoord klopt niet!";
     }
     else echo "Gebruiker bestaat niet";
 

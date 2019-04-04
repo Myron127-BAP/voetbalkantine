@@ -36,7 +36,6 @@
     ?>
 </header>
 <main style="text-align: center; margin-top: 100px; color: white;">
-    <?php session_start(); ?>
     <h1>Welkom!</h1>
     <span class="user"><?= $_SESSION['user']?></span>
 </main>
