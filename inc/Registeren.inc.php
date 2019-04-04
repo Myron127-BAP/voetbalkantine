@@ -12,11 +12,11 @@
             $Password_Hash = password_hash($_POST['Password_Register'], PASSWORD_DEFAULT);
 
 
-            $_SESSION['Username'] =$Username;
+            $_SESSION['Username'] = $Username;
 
             $sql ="INSERT INTO users(username, email, password)" . "VALUES ('$Username', '$Email', '$Password_Hash')";
 
-            if ($conn ->query($sql) ===true)
+            if ($conn ->query($sql) === true)
             {
                 $_SESSION['message'] = "Welkom $Username!";
             }

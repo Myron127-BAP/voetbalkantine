@@ -1,7 +1,5 @@
 <?php
 
-include_once './inc/Inloggen.inc.php';
-
 ?>
 
 <!doctype html>

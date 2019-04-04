@@ -1,6 +1,8 @@
 <?php
 
+$_SESSION['message']= '';
 include_once './inc/Registeren.inc.php';
+$_SESSION['message'] = '';
 
 ?>
 
@@ -30,7 +32,7 @@ include_once './inc/Registeren.inc.php';
 <main style="background-color: darkslategray">
     <br>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 bg-light rounded position-relative" action="#" method="post" enctype="multipart/form-data">
+    <form class="text-center p-5 col-md-4 offset-md-4 bg-light rounded position-relative" action="Registreren.php" method="post" enctype="multipart/form-data">
         <p class="FormText mb-4">Registeren</p>
         <div class="alert-success"><?= $_SESSION['message'] ?></div>
         <br>

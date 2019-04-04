@@ -22,6 +22,9 @@
             </ul>
             <ul class="navbar-nav ml-auto" id="NavBarText">
                 <li class="nav-item">
+                    <a class="nav-link" id="NavBarTextRegisteren" href="./Account.php">Account</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" id="NavBarTextRegisteren" href="./Inloggen.php">Inloggen</a>
                 </li>
                 <li class="nav-item">
