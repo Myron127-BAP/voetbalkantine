@@ -1,6 +1,6 @@
 <?php
 
-$_SESSION['message']= '';
+
 include_once './inc/Registeren.inc.php';
 $_SESSION['message'] = '';
 

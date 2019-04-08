@@ -1,5 +1,7 @@
 <?php
 
+    session_start();
+
 
 ?>
 
@@ -37,6 +39,9 @@
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
                 <input type="password" name="Password_Login" class="form-control" placeholder="Wachtwoord" required>
+            </div>
+            <div  class="col-md-8 offset-md-2" style="margin-top: 15px">
+            <a id="FormText" type="text" href="Registreren.php">Nog geen Account? Klik dan hier!</a>
             </div>
         </div>
         <button class="btn btn-info my-4 btn-block col-md-8 offset-md-2" type="Submit" name="Submit_Inloggen">Inloggen</button>
