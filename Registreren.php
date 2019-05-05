@@ -4,6 +4,16 @@
 include_once './inc/Registeren.inc.php';
 $_SESSION['message'] = '';
 
+
+    if (!isset($_SESSION['user']))
+    {
+
+    }
+    else
+    {
+        header("location: Account.php");
+    }
+
 ?>
 
 <!doctype html>
