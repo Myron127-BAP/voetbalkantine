@@ -6,9 +6,9 @@
 
     }
     else
-    {
-        header("location: Account.php");
-    }
+        {
+            header("location: Account.php");
+        }
 ?>
 
 <!doctype html>

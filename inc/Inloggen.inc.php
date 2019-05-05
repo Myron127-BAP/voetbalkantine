@@ -7,8 +7,8 @@
     $Username_Login = $_POST['Username_Login'];
     $Password_Login = $_POST['Password_Login'];
 
-    $sqlinsert = "SELECT * FROM users WHERE username = '$Username_Login'";
-    $result = mysqli_query($conn, $sqlinsert);
+    $sqlselect = "SELECT * FROM users WHERE username = '$Username_Login'";
+    $result = mysqli_query($conn, $sqlselect);
     $CheckResult = mysqli_num_rows($result);
 
     if ($CheckResult > 0)

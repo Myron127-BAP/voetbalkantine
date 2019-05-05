@@ -12,9 +12,6 @@
             $Email = $conn->real_escape_string($_POST['Email_Register']);
             $Password = password_hash($_POST['Password_Register'], PASSWORD_DEFAULT);
 
-
-            $_SESSION['Username'] = $Username;
-
             $sql ="INSERT INTO users(username, email, password)" . "VALUES ('$Username', '$Email', '$Password')";
 
             if ($conn ->query($sql) === true)
